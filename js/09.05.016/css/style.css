@@ -1,0 +1,22 @@
+in{
+	background: black;
+	padding: 20px;
+	position: relative;
+}
+.indiv{
+	background: white;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+tr{
+	padding: 10px;
+	border: 1px solid black;
+	height: auto;
+}
+td{
+	padding: 10px;
+	background: silver;
+	height: 20px;
+	width: 50px;
+}
