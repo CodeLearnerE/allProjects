@@ -1,0 +1,9 @@
+body{
+	background: lightgray;
+}
+p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.first{
+	font: bold;
+}

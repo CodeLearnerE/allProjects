@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	position: absolute;
+	width: 930px;
+	height: 900px;
+	background-color: #953E46; 
+}

@@ -1,0 +1,34 @@
+body{
+	background: silver;
+
+}
+body .sunimg:hover{
+	transform: rotate(10080deg);
+}
+body .sun{
+	width: 100px;
+	height: 100px;
+	margin-top: 20%;
+	margin-left: 50%;
+	transition: all 300s;
+	transition-timing: infinite;
+}
+body.sunimg{
+	position: absolute;
+
+}
+body .world{
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 40%;
+	border-style:solid;
+	width: 50px;
+	transition: all 200s;
+  	transition-timing: infinite;
+}
+body .moon{
+	position: absolute;
+	border-style: solid;
+
+	transition: all 30s;
+  	transition-timing: infinite;

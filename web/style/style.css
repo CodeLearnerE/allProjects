@@ -1,0 +1,23 @@
+body div{float: left;
+	position: static;
+	background: blue;
+}
+body div:nth-child(1){
+	
+	width: 200px;
+	height: 100px;
+}
+body div:nth-child(2){
+
+	width: 200px;
+	height: 100px;
+	margin-top: 99px;
+	background: green;
+}
+body div:nth-child(3){
+
+	width: 200px;
+	height: 100px;
+	margin-top: 199px;
+	background: yellow;
+}

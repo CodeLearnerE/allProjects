@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: silver;
+}
+.earthsystem{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: #C0C0C0;
+	transition: all 350s;
+	transition-timing: ease-in-out;
+	transform: rotate(-100080deg);
+}
+.galaxy{
+	width: 300px;
+	height: 300px;
+	border-style: solid;
+	border-radius: 100%;
+	border-color: #C0C0C0;
+	margin: auto;
+	padding: 50px;
+ 	transition: all 200s;
+  	transition-timing: ease-in-out;
+  	transform: rotate(-10080deg);
+}
+.sundiv, .earthdiv, .moondiv{
+	border-radius: 50%;
+}
+.sundiv{
+	padding: 20px;
+}
+.earthdiv{
+	margin-top: 27px;
+	margin-left: 27px;
+	height: 40px;
+	width: 40px;
+}
+.moondiv{
+	height: 15px;
+	width: 15px;
+
+ 	transition: all 150s;
+  	transition-timing: ease-in-out;
+  	transform: rotate(-10080deg);
+}
+.main{
+	padding: 100px;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border-radius: 100%;
+	border-color: white;
+}
+.sun{
+	padding: 100px;
+}
+.earth{
+	margin: auto;
+}
+.moon{
+	margin: auto;
+}

@@ -1,0 +1,29 @@
+
+.container{
+	width: 900px;
+}
+.first{
+	background: green;
+	height: 800px;
+}
+.last{
+	background: blue;
+	height: 800px;
+}
+.video_1{
+	margin-right:; 
+}
+.video_1 div:first-child{
+	height: 205px;
+}
+.video_1 div{
+	background: red;
+	height: 100px;
+	margin-top: px;
+	padding:px;
+}
+.video_2 div{
+	background: yellow;
+	height: 100px;
+	margin-top: 5px;
+}
