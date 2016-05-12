@@ -69,10 +69,10 @@
 // }}
 // esas.yaz();
 
-	var width=[200,400,600,500,1000];
-	var height=[100,100,100,200,50];
-	var sentence=['adsdadaslfa;lfkl;sdkfd','aaaaaaa','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua'];
-	var color=['blue','red','green','grey','pink'];
+	var width=[200,400,600,500,1000,500];
+	var height=[100,100,100,200,50,300];
+	var sentence=['adsdadaslfa;lfkl;sdkfd','aaaaaaa','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua','Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodtempor incididunt ut labore et dolore magna aliqua','Salam Ordubad'];
+	var color=['blue','red','green','grey','pink','grey'];
 
 
 	var data={
