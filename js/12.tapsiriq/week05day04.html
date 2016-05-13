@@ -74,54 +74,36 @@
 
   //Verilenler: Bu verilenlere gore istifadeci terefinden girilen reqeme esasen divler yaranacaq ekranda ve bu divler 4 sütün seklinde ekranda gorunecek. Ekrandakı divlerin her setirde 3.cu yerde duran div border: 2px solid red  xususiyyetine sahib olacaq. (bu meselen constructor function istifade olunaraq yazılacaq.)
 
-  // var width=300//Number(prompt("width",""));
-  // var height=300//Number(prompt("height",""));
-  // var color="grey" //prompt("color","");
-  // var divCount= Number(prompt("Div sayi daxil edin",""));
+  var width=100//Number(prompt("width",""));
+  var height=100//Number(prompt("height",""));
+  var color="grey" //prompt("color","");
+  var divCount= Number(prompt("Div sayi daxil edin",""));
 
 
-  // function Creator(width,height,color,count){
-  //   this.width = width,
-  //   this.height = height,
-  //   this.color = color,
-  //   this.divCount = count,
-  //   (function() {
-  //     	for (var j = 1; j<this.divCount/4; j++) {
-  //     		document.write("<div>");
-  //     		for (var i = 1; i<5; i++) {
-		//         if ((i+1)% 4 === 0) {
-		//             document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block;  height:"+this.height+"px;  background:"+this.color+"; border: 2px solid red;'></div>");
-		//         } else if (i % 4 === 0) {
-		//             document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block; height:"+this.height+"px;  background:"+this.color+"'></div>");
-		//         }else {
-		//             document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block;  height:"+this.height+"px;  background:"+this.color+"'></div>");
-		//         }
+  function Creator(width,height,color,count){
+    this.width = width,
+    this.height = height,
+    this.color = color,
+    this.divCount = count,
+    (function() {
 
-		//       }
-		//       document.write("</div>");
-		//     }
-		// })();
+      		for (var i = 0,j=1;j<this.divCount, i<this.divCount;j++, i++) {
 
-  // }
+		        if ((j+1)% 4 === 0) {
+		            document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block;  height:"+this.height+"px;  background:"+this.color+"; border: 2px solid red;'>a</div>");
+		        } else if (j % 4 === 0) {
+		            document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block; height:"+this.height+"px;  background:"+this.color+"'>b</div></br>");
+		        }
+            else {
+		            document.write("<div style='margin:5px; width:"+this.width+"px; display:inline-block;  height:"+this.height+"px;  background:"+this.color+"'>c</div>");
+		        }
 
-  // Creator(width,height,color,divCount);
+		      }
+		    })();
 
+  }
 
-  
-
-  // var size=[[width],[height]];
-  // var color=[];
-
-
-
-   
-    
-
-
-
-
-
-
+  Creator(width,height,color,divCount);
 
 </script>
 
