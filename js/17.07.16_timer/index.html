@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var deq = prompt("deqiqe yaz : "+"");
+		var san = prompt("saniye yaz : "+"");
+
+		var deq_a = deq*60000;
+		var san_a = san*1000; 
+		var myVar;
+	if(deq<=60){
+		function myFunction(a) {
+		    myVar = setInterval(alertFunc, a);
+
+		}
+		myFunction(deq_a);
+		function alertFunc() {
+			clearInterval(myVar);
+			if(san<=60){
+			function myFunctiona(b) {
+		    myVarb = setInterval(alertFunc, b);
+			}
+			myFunctiona(san_a);
+			function alertFunc() {
+			clearInterval(myVarb);
+			document.write("<h1 style='text-align:center; background:black; color:white;'>vaxt bitdi!</h1>");
+			}}
+			else{
+				alert("duzgun deyil"+" ")
+			}
+		}
+	}
+	else{
+			alert("duzgun deyil"+" ")}
+	</script>
+</body>
+</html>
