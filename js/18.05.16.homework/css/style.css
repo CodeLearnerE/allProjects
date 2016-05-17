@@ -1,0 +1,48 @@
+/**{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #2D2D2D;
+}*/
+/*
+.main{
+	height: 300px;
+	width: 300px;
+	background: #C8C9CA;
+	margin: auto;
+	position: relative;
+}
+.switch{
+	position: relative;
+	height: 30px;
+	width: 100px;
+	background: #8AA933;
+	margin: auto;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+	top: 45%;
+	transition-timing-function: linear;
+}
+.switch:hover{
+	background: #919191;
+}
+
+.switch h3{
+	position: relative;
+	top:5px;
+}
+.btn{
+	position: relative;
+	height: 22px;
+	width: 22px;
+	background: #E3E3E3;
+	border:12px solid;
+	border-radius: 50%;
+	display: inline-block;
+    bottom: 25px;
+    float: right;
+    right: 0px;
+    transition-timing-function: linear;
+}*/

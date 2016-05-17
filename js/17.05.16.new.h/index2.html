@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button onclick='x()'>Click me for images</button>
+<button onclick="b()">Click me change color</button>
+<button onclick='a()'>Click me clock</button>
+<script>
+
+	function a(){
+		var data = new Date();
+		var hour = data.getHours();
+		var min = data.getMinutes();
+		var sec = data.getSeconds();
+		document.open();
+		document.write("saat - "+hour+":"+min+":"+sec);
+		document.close();
+		var b = setInterval(function(){a()},1000);
+	}
+	
+
+var color;
+function b(){
+	color="black";
+	document.open();
+	document.write("<div style='height:100%;width:100%; background: "+color+" ;'><button onclick='c()'>Click me</button></div>");
+	document.close();
+}
+
+function c(){
+	color="silver"
+	document.open();
+	document.write("<div style='height:100%;width:100%; background: "+color+" ;'><button onclick='b()'>Click me</button></div>");
+	document.close();
+}
+
+function x(){
+	document.open();
+	document.write("<button onclick='y()'>Click me right</button><button onclick='x()'>Click me left</button><div><img src='img/1.jpg' style='height;400px; width:500px;'></div>");
+	document.close();
+}
+
+function y(){
+	document.open();
+	document.write("<button onclick='y()'>Click me right</button><button onclick='x()'>Click me left</button><div><img src='img/2.jpg' style='height;400px; width:500px;'></div>");
+	document.close();
+}
+</script>
+</body>
+</html>

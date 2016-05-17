@@ -10,22 +10,22 @@
 
 		var deq_a = deq*60000;
 		var san_a = san*1000; 
-		var myVar;
-	if(deq<=60){
+		var i;
+	if(deq<=60,san<=60){
 		function myFunction(a) {
-		    myVar = setInterval(alertFunc, a);
+		    i = setInterval(alertFunc, a);
 
 		}
 		myFunction(deq_a);
 		function alertFunc() {
-			clearInterval(myVar);
+			clearInterval(i);
 			if(san<=60){
 			function myFunctiona(b) {
-		    myVarb = setInterval(alertFunc, b);
+		    i = setInterval(alertFunc, b);
 			}
 			myFunctiona(san_a);
 			function alertFunc() {
-			clearInterval(myVarb);
+			clearInterval(i);
 			document.write("<h1 style='text-align:center; background:black; color:white;'>vaxt bitdi!</h1>");
 			}}
 			else{
