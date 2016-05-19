@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script>
+	
+// 	var a = {
+// 	ad:"Efqan",
+// 	soyad:"Elovsetli",
+// 	yas:"25"
+// 	myFunc:function () {
+// 		console.log(this.ad+","+this.yas);
+// 	}
+// 	}
+//    var b = {
+//    	ceki:"120kq",
+//    	boy:"160cm"
+//    }
+//    var c ={
+//    	goz:"qara",
+//    	yer:"Baki:"
+//    }
+//    c.__proto__=a;
+//    c.__proto__=b;
+// myFunc();
+//    console.log(c.yas);
+
+var telebe = function(ad,soyad){
+this.ad=ad,
+this.soyad=soyad
+}
+
+var codeAcademy = function(bilik){
+this.bilik=bilik
+}
+
+
+var bdu = function(bilik1){
+this.bilik=bilik1	
+}
+
+
+var qafqaz = function(bilik2){
+this.bilik=bilik2
+}
+
+//codeAcademy.prototype=new telebe();
+telebe.prototype=new qafqaz("zeif");
+telebe.prototype=new codeAcademy("yaxsi");
+telebe.prototype=new bdu("pis");
+//bdu.prototype=new telebe();
+
+//var eli =new codeAcademy("yaxsi");
+var eli =new telebe("Elovset","Efqanli");
+console.log(eli);
+</script>
+
+</body>
+</html>
