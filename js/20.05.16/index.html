@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<style>
+	
+	div{
+		width: 150px;
+		height: 100px;
+		margin: 5px;
+		float:left; 
+		background: grey;
+	}
+
+</style>
+
+<div></div>
+<div></div>
+<div></div>
+<div class="b"></div>
+<div id="a"></div>
+<div></div>
+
+<script>
+	document.getElementsByTagName("div")[0].innerHTML="hfirst div".style.background="yellow";
+
+	document.getElementsByTagName("div")[1].style.background="black";
+	document.getElementsByTagName("div")[2].style.background="red";
+	document.getElementById("a").innerHTML="Paragraph changed!";
+	document.getElementsByClassName("b")[0].innerHTML="sdffasf";
+
+
+</script>
+
+</body>
+</html>

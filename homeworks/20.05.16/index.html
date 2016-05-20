@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>create js div</title>
+	<style>
+	.main{
+		/*width: 100%;*/
+		height: auto;
+	}
+	.new{
+		background: grey;
+		height: 100px;
+		/*width: 30%;*/
+		/*margin: 5px;*/
+		display: inline-block;
+	}
+
+	</style>
+</head>
+<body>
+
+
+
+
+<script>
+
+	var divSayi = prompt("div sayi daxil et : "+"");
+	var sutunSayi = prompt("sutun sayi daxil et : "+"");
+	var genis = prompt("genislik daxil et : "+"");
+	var margin = prompt("margin daxil et"+"");
+	
+	function createMain(){
+	var maindiv = document.createElement("div");
+	maindiv.setAttribute("class","main");
+	maindiv.setAttribute("style","width:"+genis+"px;");
+	document.body.appendChild(maindiv);
+
+	function create(){
+		for (i=0;i<divSayi;i++){
+		var divs = document.createElement("div");
+		maindiv.appendChild(divs);
+		divs.setAttribute("class","new");
+		divs.style.width=genis/sutunSayi+"px";
+		divs.style.margin=margin+"px";
+}
+	}
+	create();
+
+}
+createMain();
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
