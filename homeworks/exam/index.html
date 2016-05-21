@@ -31,6 +31,8 @@
 
 
 <script>
+// form
+
 	function textYaz() {
 		var text =document.getElementById('mytext').value;
 		document.getElementById("yaz").innerHTML = text;
@@ -41,56 +43,64 @@
   	sekil.setAttribute("src",sekil_link);
   }
 
+
+// effect1
+
 var a=true;
-
   function effect1(){
-  	var sekil_border = document.getElementById("sekil");
+  	if(a==true){
+  	document.getElementById("sekil").setAttribute("style","border:1px solid black;");
+  	a=false;
+  }
+  	else{
+  	document.getElementById("sekil").setAttribute("style","border:none;");
+  	a=true;
+  	}
+  }
 
-  	if(a==true){
-  	sekil.setAttribute("style","border:1px solid black;");
-  	a=false;
-  }
-  	else{
-  	sekil.setAttribute("style","border:none;");
-  	a=true;
-  	}
-  }
+
+  // effect2
+
    function effect2(){
-  	var text =  document.getElementById("yaz");
   	if(a==true){
-  	text.setAttribute("style","background:blue;");
+  	document.getElementById("yaz").style.background="blue";
   	a=false;
   }
   	else{
-  	text.setAttribute("style","background:red;");
+  	document.getElementById("yaz").style.background="red";
   	a=true;
   	}
   }
+
+  // effect3
+
+
   function effect3(){
-  	var text =  document.getElementById("yaz");
   	if(a==true){
-  	text.setAttribute("style","font-weight: bold;");
-  	a=false;
+  	document.getElementById("yaz").style.fontWeight = "Bold";
+    a=false;
   }
   	else{
-  	text.setAttribute("style","font-weight: normal;");
+  	document.getElementById("yaz").style.fontWeight = "normal";
   	a=true;
   	}
   }
+
+  // effect4
+
 function effect4(){
-  	var text =  document.getElementById("yaz");
   	if(a==true){
-  	text.setAttribute("style","top:0px;");
+  	document.getElementById("yaz").style.top="0px";
+   document.getElementById("yaz").style.bottom="auto";
   	a=false;
   }
   	else{
-  	text.setAttribute("style","bottom:0px;");
+  	document.getElementById("yaz").style.bottom="0px";
+    document.getElementById("yaz").style.top="auto";
   	a=true;
   	}
   }
  
-
-
 </script>
 
 </div>
