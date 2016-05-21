@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY CAPS MAKER</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="main">
+	<h3 style="color:red;">My Caps Maker</h3>
+	<div class="img">
+		<img id="sekil" src="http://www.badricomputers.com/uploads/desk.jpg">
+		<p id="yaz">Bu texti dəyişə bilərsiniz</p>
+	</div>
+	<div class="img_text">
+		<input id ="mytext" type="text" class="text_area"><br>
+		<input type="submit" value="TEXTİ DƏYİŞ" class="a_btn" onclick="textYaz()">
+	</div>
+	<div class="img_link">
+		<input id="mylink" type="text" class="text_area"><br>
+		<input type="submit" value="ŞƏKLİ DƏYİŞ" class="a_btn" onclick="linkYaz()">
+	</div>
+	<div class="effects">
+		<input type="submit" value="effect 01" class="b_btn" onclick="effect1()">
+		<input type="submit" value="effect 02" class="b_btn" onclick="effect2()">
+		<input type="submit" value="effect 03" class="b_btn" onclick="effect3()">
+		<input type="submit" value="effect 04" class="b_btn" onclick="effect4()">
+	</div>
+
+
+
+<script>
+	function textYaz() {
+		var text =document.getElementById('mytext').value;
+		document.getElementById("yaz").innerHTML = text;
+		}
+  function linkYaz(){
+  	var sekil = document.getElementById("sekil");
+  	var sekil_link = document.getElementById("mylink").value;
+  	sekil.setAttribute("src",sekil_link);
+  }
+
+var a=true;
+
+  function effect1(){
+  	var sekil_border = document.getElementById("sekil");
+
+  	if(a==true){
+  	sekil.setAttribute("style","border:1px solid black;");
+  	a=false;
+  }
+  	else{
+  	sekil.setAttribute("style","border:none;");
+  	a=true;
+  	}
+  }
+   function effect2(){
+  	var text =  document.getElementById("yaz");
+  	if(a==true){
+  	text.setAttribute("style","background:blue;");
+  	a=false;
+  }
+  	else{
+  	text.setAttribute("style","background:red;");
+  	a=true;
+  	}
+  }
+  function effect3(){
+  	var text =  document.getElementById("yaz");
+  	if(a==true){
+  	text.setAttribute("style","font-weight: bold;");
+  	a=false;
+  }
+  	else{
+  	text.setAttribute("style","font-weight: normal;");
+  	a=true;
+  	}
+  }
+function effect4(){
+  	var text =  document.getElementById("yaz");
+  	if(a==true){
+  	text.setAttribute("style","top:0px;");
+  	a=false;
+  }
+  	else{
+  	text.setAttribute("style","bottom:0px;");
+  	a=true;
+  	}
+  }
+ 
+
+
+</script>
+
+</div>
+
+</body>
+</html>
