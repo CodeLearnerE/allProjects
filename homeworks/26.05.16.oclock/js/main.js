@@ -1,3 +1,16 @@
+$( document ).ready(function() {
+    $(".clock_key, .minute_key")
+     .css({
+        "transition": "3s ease"
+     });
+});
+function clear_anim () {
+     $(".clock_key, .minute_key").css({"transition":""})
+}
+setInterval(clear_anim, 10000);
+clearInterval(clear_anim);
+
+
 var clockRadius = document.getElementsByClassName("clockRadius")[0];
 
 function creator() {
@@ -43,7 +56,7 @@ function mysecond () {
 	var degreeMin = 6*localMinute;
 	minutekey.style.transform = 'rotate(' + degreeMin + 'deg)';
 
-	var degreeHours = 30*localHours;
+	var degreeHours = 30*localHours+localMinute/2;
 	clockkey.style.transform = 'rotate(' + degreeHours + 'deg)';
 
 }
