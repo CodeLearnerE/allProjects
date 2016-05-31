@@ -1,0 +1,22 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Lato;
+	transition: 2s linear;
+}
+body{
+	height: 5000px;
+}
+ul{
+	width: 100%;
+}
+ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.outputText{
+	margin: 20px 0 0 0 ;
+	padding: 10px 20px;
+	width: 600px;
+}

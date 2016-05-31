@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Lato;
+	transition: .5s linear;
+}
+.main{
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+}
+.main img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.word{
+	color: white;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	visibility: hidden;
+}
+.word h3{
+	margin-top: 40%;
+}
+.word a ,.word p{
+	color: white;
+	padding: 5px;
+}

@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	transition: 1s ease;
+
+}
+form{
+	margin: 0 auto;
+}
+p{
+	text-align: center;
+}
+.main{
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+.fa-angle-up{
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.fa-angle-down{
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	bottom: 0px;
+	text-align: center;
+	font-size: 25px;
+}
+.a div:first-child{
+	height:80%;
+	width:100%;
+	background:#1FAF6D;
+	opacity:.9;
+	border-radius: 5px;
+}
+.a div:last-child{
+	height:20%;
+	width:100%;
+	background: #1A935C;
+	opacity:.9;
+	border-radius: 5px;
+}
+.news1{
+    background: #1FAF6D;
+    width: 340px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 80px;
+    top: 120px;
+    z-index: 1;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news2{
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 70px;
+    top: 145px;
+    z-index: 2;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news3
+{
+    width: 380px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 60px;
+    top: 170px;
+    z-index: 3;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news4{
+    background: #1FAF6D;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 50px;
+    top: 200px;
+    z-index: 4;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news5{
+    width: 380px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 60px;
+    top: 230px;
+    z-index: 3;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news6{
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 70px;
+    top: 255px;
+    z-index: 2;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
+.news7{
+    background: #1FAF6D;
+    width: 340px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 80px;
+    top: 280px;
+    z-index: 1;
+    box-shadow:0px 1px 1px 2px #1A935C;
+}	
