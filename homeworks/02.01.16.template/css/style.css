@@ -1,0 +1,447 @@
+﻿html, body, div, span{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+*{
+	transition: .5s;
+}
+section{
+	width: 100%;
+}
+
+
+/*Header*/
+#header{
+	min-height: 600px;
+	background-image: url(../img/bg01.jpg);
+	color: white;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.myFixedMenu{
+	position:fixed;
+	width:100%;
+	margin-top: 30px;
+	height: 100px;
+	z-index: 999;
+}
+.genesis{
+	border-bottom: 1px solid #b2b3b1;
+	height: 100px;
+}
+.logo{
+	height: 30px;
+	
+}
+.menu{
+	height: 45px;
+	
+}
+.menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
+.icon{
+	padding: 10px;
+}
+.lorem{
+	border-top: 1px solid white;
+	margin-top: 25%;
+}
+.contactUs{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.case{
+
+    position: absolute;
+    top: 38%;
+    left: 45.5%;
+
+}
+.case span{
+	border: 1px solid white;
+	background: white;
+	color: black;
+	font-size: 14px;
+	padding: 5px;
+}
+.lorem h1{
+	position: absolute;
+    left: 33%;
+	font-size: 50px;
+	font-weight: 500;
+    line-height: 2.1;
+}
+.btn button{
+	background: none;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 23%;
+    left: 590px;
+    padding: 5px;
+}
+
+.opacityColor{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	top:0px;
+	z-index: -1;
+}
+.fa-angle-right{
+	position: absolute;
+	padding: 5px 30px 5px 15px;
+	background-color: black;
+	opacity: .5
+	color: white;
+	right: 0px;
+	display: none;
+
+}
+.fa-angle-left{
+	position: absolute;
+	padding: 5px 15px 5px 30px;
+	background-color: black;
+	color: white;
+	left: 0px;
+	opacity: .5;
+	display: none;
+
+}
+
+
+/* /Header */
+/*Who we are*/
+#whoWeAre{
+	min-height: 500px;
+	margin-top: 50px;
+}
+.whoWeAre h4{
+	color: black;
+	padding: 20px;
+}
+.compImg{
+	height: 100%;
+	width: 100%;
+}
+
+
+.first{
+	color: black;
+	line-height: 20px;
+}
+.second{
+	line-height: 16px;
+}
+.button1{
+	color: black;
+	background: white;
+	box-shadow: none;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 2px;
+}
+/* /Who we are*/ 
+/*Services*/
+#services{
+	min-height: 500px;
+}
+.border{
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 10px;
+	margin-left: 10px;
+}
+.border p{
+	color: #7c7e83;
+	line-height: 1.5;
+    font-size: 14px;
+}
+/*Services*/
+/*our work*/
+#ourWork{
+}
+
+#ourWork img{
+	width: 100%;
+
+}
+.mockups .row .col-md-6 ,.mockups .row .col-md-12,.mockups .col-md-4{
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.hoverImg{
+	overflow: hidden;
+	position: relative;
+}
+
+.rightWork{
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 5%;
+}
+.ourworkCard{
+	padding: 50px 20px 20px 40px; 
+}
+#ourWork .rightWork img{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+.workButton{
+	padding: 10px;
+	background: none;
+	border: 1px solid black;
+	margin-top: 30px;
+	border-radius: 3px;
+}
+.workButton:hover{
+	background: black;
+	color: white;
+}
+
+/*clients and customeryAy*/
+
+#clients{
+	min-height: 300px;
+}
+#customersSay{
+	min-height: 300px;
+}
+.box-wrap {
+	height:100px;border:1px solid #DCDDDD;background: ##F4F5F5;z-index: 5;padding: 30px;
+}
+.box-wrap span {
+	float: left;
+}
+.box-wrap p {
+	font-size: 12px;
+	font-weight: bold;
+	color:#7A7B7B;
+}
+.customer-wrap {
+	margin-top: 10px;
+	height: 100px;
+}
+.customer-img-wrap {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.profile-pic-wrap-1 {
+	background-image: url("../img/person1.jpg");
+	background-size: contain;
+}
+.profile-pic-wrap-2 {
+	background-image: url("../img/person2.jpg");
+	background-size: contain;
+}
+.profile-pic-wrap-3 {
+	background-image: url("../img/person3.jpg");
+	background-size: contain;
+}
+
+
+/*study*/
+
+#study {
+    overflow: hidden;
+    position: relative;
+    min-height: 600px;
+}
+
+.video {
+    transform: scale(1.3);
+    z-index: -1;
+    margin-top: 6px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.videoOpacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.videoOpacity h1 {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 600;
+    opacity: 1;
+    font-size: 60px;
+}
+
+.videoOpacity p {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    opacity: 1;
+    font-size: 18px;
+}
+
+
+
+#people_team{
+	min-height: 500px;
+}
+#people_team img{
+	width: 100%;
+}
+
+
+
+
+
+.hoverImg:hover .word {
+    display: block;
+    background-color: black;
+    opacity: 0.7;
+}
+.hoverImg:hover img {
+   transform:scale(1.3);
+}
+.word{
+	color: white;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: none;
+	top: 0px;
+	z-index: 1;
+}
+.word h4{
+	margin-top: 40%;
+}
+.word h3{
+	margin-top: 45%;
+	margin-left: 0px; 
+}
+.word a ,.word p{
+	color: white;
+	padding: 5px;
+}
+
+
+/*Blog*/
+#blog{
+	min-height: 900px;
+	background: #f4f5f5;
+}
+.height{
+	height: 100px;
+}
+#insquare{
+	color: rgba(0,0,0,0.2);
+}
+.hello{
+	
+}
+.kletka {
+	margin-top: 50px;
+	margin-left: 80px;
+	padding: 10px;
+	width: 90px;
+	height: 120px;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: gray;
+	float: left;
+}
+.kletka2{
+	height: 190px;
+	width: 700px;
+	padding: 40px;
+	float: right;
+}
+.img{
+	width: 262px;
+	height: 213px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#span{
+	border: 1px solid black;
+	background: black;
+	color: white;
+}
+.card{
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 10px;
+	position: relative;
+}
+.card-block{
+	position: absolute;
+	top: 250px;
+	left: 0;
+}
+#butt{
+	position: absolute;
+    top: 500px;
+}
+#blog button{
+	background: none;
+	margin-top: 30px;
+}
+
+#contacts{
+	min-height: 200px;
+	background: black;
+}
+
+/*contacts*/
+#contacts{
+	color: white;
+}
+#contacts h1{
+	font-size: 55px;
+	font-weight: bold;
+}
+.form-control{
+	margin: 10px;
+	background: #1f2229;
+	padding: 10px;
+}
+.btn-block{
+	background: #1f2229;
+	border-color: rgba(255,255,255,0.2);
+	color: white;
+	padding: 10px;
+}
+.btn-block span{
+	margin: 5px;
+}
+.ft{
+	height: 350px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.square{
+	border: 1px solid rgba(255,255,255,0.2);
+	padding: 10px;
+}
+.secondFoter{
+	height: 150px;
+	padding: 30px;
+}
+
